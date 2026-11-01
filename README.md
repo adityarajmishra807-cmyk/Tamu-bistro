@@ -1,25 +1,26 @@
-# TAMU’S BISTRO — Horizon Works demo
+# TAMU'S BISTRO website (Horizon Works demo)
 
-A responsive, rustic Himalayan-inspired restaurant website for TAMU’S BISTRO in Pondha, Majhaun, Dehradun. Built as a lightweight static HTML/CSS/JS site with no build step.
+Static single-page site. No build step.
 
-## Preview locally
+## Files
+- `index.html` — the complete website (HTML, CSS, JavaScript)
+- `assets/storefront.webp` — storefront photo
+- `assets/interior-fireplace.webp` — interior fireplace photo
+- `assets/wall-art.webp` — interior wall-art photo
 
-Open `index.html` in a browser, or run `npx serve .` from the project folder.
+## Run / deploy
+- Preview: open `index.html`, or run `npx serve .`
+- Deploy: connect this GitHub repository to Vercel or deploy the project folder.
 
-## Project structure
-
-- `index.html` — homepage, responsive navigation, menu gallery, reviews, location and WhatsApp CTAs.
-- `assets/` — optimized WebP versions of the supplied storefront, interior and wall-art photographs, plus food/menu crops from the supplied Google Business screenshot.
-
-## Contact
-
-The supplied phone number `078304 59755` is configured as India `+91 78304 59755` for `tel:` and WhatsApp links (`917830459755`). Confirm that this number is WhatsApp-enabled and belongs to the restaurant before launch.
+## Edit points (search in index.html)
+- `WA_NUMBER` — WhatsApp number in international format (currently 917830459755, assuming India +91 for 078304 59755).
+- `MENU` — menu categories. Add `desc`, `img` (photo path), or price when confirmed by the restaurant.
+- `To be confirmed before launch` — opening hours.
+- `Story copy to be confirmed` — replace after the owner approves the final story text.
+- Map button — update with the exact Google Business Profile map link if needed.
 
 ## Before publishing
-
-1. Confirm the WhatsApp number and test all message links.
-2. Confirm the exact map pin and address.
-3. Confirm menu items, current prices and availability; no unverified prices are shown.
-4. Confirm opening hours. The page currently asks visitors to message for today's hours.
-5. Verify the Google rating/review count shown (4.6 / 258 from the supplied listing screenshot).
-6. Replace any menu crops with full-resolution food photographs supplied by the restaurant, if available.
+1. Confirm the WhatsApp number and test the links.
+2. Confirm opening hours and the exact map pin.
+3. Add real dish photos, descriptions and prices when supplied by the restaurant.
+4. Verify the Google rating and review count before displaying them.
